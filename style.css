@@ -1,0 +1,50 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    background-color: #f3f4f5;
+    color: rgb(85, 104, 124);
+}
+.conteiner {
+    max-width:1200px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0,0,0.2) 0 0 20px;
+    min-height: 100vh;
+}
+.backgr_image {
+    max-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color:rgb(219, 194, 146);
+    text-align: center;
+    font-size: 0px;
+}
+.main-menu > ul > li {
+    display: inline-block;
+}
+.main-menu > ul > li > a{
+    display: block;
+    padding: 20px;
+    color: #c44b69;
+    font-size: 20px;
+    text-decoration: none;
+}
+.main-menu > ul > li > a:hover {
+    background-color: rgba(0, 0,0,0.2);
+
+  
+}
+.main-menu > ul > li > a > img:hover {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+              transition:         transform .8s ease-in-out;
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+      
+    }
