@@ -1,8 +1,12 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
-    background-color: #f3f4f5;
+    /*background-color: #f3f4f5;*/
     color: rgb(85, 104, 124);
+    background-image: url(./images/vector.webp);
+    background-position: center center;
+    background-size: cover;
+    background-color: #d3ad73;
 }
 .conteiner {
     max-width:1200px;
@@ -10,18 +14,11 @@ body {
     box-shadow: rgba(0, 0,0,0.2) 0 0 20px;
     min-height: 100vh;
 }
-.backgr_image {
-    max-width: 100%;
-    min-height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .main-menu ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    background-color:rgb(219, 194, 146);
+    /*background-color:rgb(219, 194, 146);*/
     text-align: center;
     font-size: 0px;
 }
@@ -31,8 +28,8 @@ body {
 .main-menu > ul > li > a{
     display: block;
     padding: 20px;
-    color: #c44b69;
-    font-size: 20px;
+    color: #f1f7c5;
+    font-size: 1.8vw;
     text-decoration: none;
 }
 .main-menu > ul > li > a:hover {
