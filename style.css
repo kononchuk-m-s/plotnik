@@ -2,7 +2,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
     /*background-color: #f3f4f5;*/
-    color: rgb(85, 104, 124);
+    color: rgb(240, 243, 247);
     background-image: url(./images/vector.webp);
     background-position: center center;
     background-size: cover;
@@ -29,7 +29,7 @@ body {
     display: block;
     padding: 20px;
     color: #f1f7c5;
-    font-size: 1.8vw;
+    font-size: 1.8vw; /*размерность шрифта vw чтобы текст был адаптивным к размеру окна*/
     text-decoration: none;
 }
 .main-menu > ul > li > a:hover {
@@ -43,5 +43,9 @@ body {
               transition:         transform .8s ease-in-out;
         -webkit-transform: rotate(360deg);
                 transform: rotate(360deg);
-      
+                      
+    }
+    .main-menu > ul > li > a > img{ /*пытаюсь сделать пилу адаптивной*/
+        margin-bottom: -30px;
+        
     }
